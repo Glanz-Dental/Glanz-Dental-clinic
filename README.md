@@ -1,9 +1,7 @@
-GLANZ Dental Clinic — Final Exact Build
+GLANZ Dental Clinic — Final Two Touches
 
-Only the approved final content changes were applied:
-1. Modern Technology and staging/verification copy removed; Premium Quality retained.
-2. Service image placeholders removed.
-3. Dr. Islam removed from top navigation; he remains in the doctors/team content.
-4. Services intro changed to: “Explore dental treatments available at GLANZ Dental Clinic.”
+Only two approved refinements:
+1. Our Approach simplified to “Dentistry built around you.” while keeping Premium Quality unchanged.
+2. Added clear visual spacing between “READY WHEN YOU ARE” and “Talk to the GLANZ team”.
 
-All other approved clinic content and design remain based on the existing master.
+No other website content or details were changed.
