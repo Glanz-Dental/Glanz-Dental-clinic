@@ -1,16 +1,11 @@
-# GLANZ Dental Clinic — English Final
+# GLANZ Dental Clinic — Corrected Build
 
-English-only responsive landing page.
+This build fixes the doctor-image mapping.
 
-Included:
-- Calm GLANZ palette: off-white, charcoal and gold.
-- Revised hero with the approved English introduction.
-- Appointment CTA separated from the introductory copy.
-- All five supplied doctor images included in the website.
-- Doctor credentials based on the supplied team artwork.
-- Five highlighted treatments.
-- Before & After and Reviews remain removed.
-- Phone, WhatsApp, working hours, address and map.
-- GitHub Pages ready.
-
-Upload all files and the `assets` folder to the repository root.
+- Dr. Islam Abdelhamid appears once only.
+- Dr. Abdelrahman Moustafa uses his own supplied image.
+- Dr. Fady Abolos uses his own supplied image.
+- Dr. Maria Maurice uses her own supplied image.
+- Dr. Elsayed Mohamed uses his own supplied image.
+- Hero uses a calm GLANZ brand visual instead of repeating Dr. Islam.
+- Keep the `assets` folder next to `index.html` when uploading to GitHub Pages.
