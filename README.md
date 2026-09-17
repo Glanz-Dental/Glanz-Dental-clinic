@@ -1,7 +1,13 @@
-GLANZ Dental Clinic — Final Two Touches
+GLANZ Dental Clinic — exactly 3 requested changes
 
-Only two approved refinements:
-1. Our Approach simplified to “Dentistry built around you.” while keeping Premium Quality unchanged.
-2. Added clear visual spacing between “READY WHEN YOU ARE” and “Talk to the GLANZ team”.
+1. Removed only the five empty service image spaces.
+2. Separated the two Hero CTA text elements in the HTML structure.
+3. Moved the existing Quick Information block unchanged to immediately before the Footer.
 
-No other website content or details were changed.
+Verified:
+- Navbar unchanged.
+- Footer unchanged.
+- Dr. Islam Instagram retained exactly.
+- Doctors section unchanged.
+- Service names, text and order unchanged.
+- No new content added.
