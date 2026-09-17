@@ -1,12 +1,16 @@
-# GLANZ Dental Clinic Landing Page
+# GLANZ Dental Clinic — English Final
 
-Ready for GitHub Pages.
+English-only responsive landing page.
 
-## Publish
-1. Create a new GitHub repository.
-2. Upload `index.html` to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then Save.
+Included:
+- Calm GLANZ palette: off-white, charcoal and gold.
+- Revised hero with the approved English introduction.
+- Appointment CTA separated from the introductory copy.
+- All five supplied doctor images included in the website.
+- Doctor credentials based on the supplied team artwork.
+- Five highlighted treatments.
+- Before & After and Reviews remain removed.
+- Phone, WhatsApp, working hours, address and map.
+- GitHub Pages ready.
 
-The landing page is responsive for desktop, laptop, tablet and mobile.
+Upload all files and the `assets` folder to the repository root.
