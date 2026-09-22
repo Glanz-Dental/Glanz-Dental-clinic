@@ -1,11 +1,2 @@
-GLANZ Dental Clinic
-
-Only one requested change was applied:
-- Removed the duplicate Visit Us / Working Hours / Talk to Us block immediately before the Footer.
-
-Verified unchanged:
-- Main GLANZ Dental Clinic / Contact section
-- Footer
-- GLANZ Instagram
-- Dr. Islam Instagram
-- Navbar and all other website content
+# GLANZ Arabic Rebuild V1
+Arabic-first rebuild prepared for GitHub Pages. Doctor photos are the original GLANZ images supplied by the user. Treatment visuals are crops from the user's supplied reference screenshots; no AI-generated imagery is used. English switch is visually present but intentionally not activated until the Arabic version is approved.
