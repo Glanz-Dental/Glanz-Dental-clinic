@@ -1,12 +1,12 @@
-# GLANZ Dental Clinic — GitHub Pages
+GLANZ Dental Clinic — corrected GitHub build
 
-## Upload
-1. Create/open your GitHub repository.
-2. Upload `index.html` and the entire `assets` folder without changing its name.
-3. Settings → Pages → Deploy from a branch → `main` / root → Save.
+Structure:
+- index.html
+- assets/ (all doctor and dental case images)
 
-## Image folders
-All website images are inside `assets/` and the HTML uses relative paths so they work locally and on GitHub Pages.
+Doctor section order:
+1. Original doctor artwork
+2. Specialty directly underneath
+3. Related dental case image(s) directly underneath
 
-## Team section
-Each doctor's original artwork is shown first. The specialty is directly underneath it, followed by the relevant dental case image(s). Names and qualifications are not repeated outside the original doctor artwork.
+No duplicate doctor names/qualifications are rendered outside the original doctor artwork.
