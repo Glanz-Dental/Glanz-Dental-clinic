@@ -19,3 +19,5 @@ Add Google Analytics or Meta Pixel scripts inside the <head> of index.html befor
 
 MAIN CONTENT
 Text and links are in index.html. Visual styling is in assets/css/styles.css. Language and booking interactions are in assets/js/script.js.
+
+V6 mobile refinement: smaller typography, tighter hierarchy, more whitespace, compact doctors/results, removed rating label badge.

@@ -161,3 +161,85 @@ h3{font-size:clamp(1.2rem,1.8vw,1.55rem)}
   .results-grid figure,.result-feature,.results-grid figure:nth-child(2){width:88%;margin:0 auto;aspect-ratio:auto}
   .results-grid img{height:auto}
 }
+
+/* V6 — extra compact mobile refinement */
+@media(max-width:620px){
+  .shell{width:calc(100% - 28px)}
+  .section{padding:48px 0}
+  .section-heading{margin-bottom:22px;max-width:100%}
+  .section-heading h2{font-size:1.42rem;line-height:1.28}
+  .section-heading>p:last-child{margin-top:9px;font-size:.8rem;line-height:1.65;max-width:96%}
+  .eyebrow{font-size:.64rem;margin-bottom:7px}
+
+  .header-inner{min-height:62px;width:calc(100% - 24px)}
+  .brand{width:96px}
+  .language-toggle{font-size:.86rem}
+  .menu-toggle{font-size:1.1rem}
+
+  .hero{padding:34px 0 42px;gap:22px}
+  .hero h1{font-size:1.68rem;line-height:1.18;max-width:92%}
+  .hero-copy{font-size:.82rem;line-height:1.65;margin:12px 0 16px;max-width:96%}
+  .actions{gap:9px}
+  .button{min-height:45px;padding:10px 14px;font-size:.84rem}
+  .hero-note{font-size:.7rem;margin-top:9px}
+  .hero-panel{padding:15px 16px}
+  .hero-logo{width:112px;margin-bottom:8px}
+  .quick-row{padding:12px 0}
+  .quick-row span{font-size:.62rem}
+  .quick-row strong{font-size:.82rem;margin-top:3px}
+
+  .service-grid{gap:14px}
+  .service-card{min-height:126px;padding:16px 16px;border-width:1px}
+  .service-card>span{font-size:.64rem}
+  .service-card h3{font-size:1.05rem;line-height:1.3}
+  .service-card p{font-size:.76rem;line-height:1.55;margin-top:7px}
+
+  .doctor-card{grid-template-columns:82px minmax(0,1fr);gap:14px;padding:24px 0}
+  .doctor-visual{width:82px;height:100px;max-height:100px}
+  .doctor-visual img{height:100px}
+  .doctor-info h3{font-size:1.05rem;line-height:1.28}
+  .doctor-kicker{font-size:.6rem;line-height:1.4;margin-bottom:4px}
+  .doctor-info p:not(.doctor-kicker){font-size:.76rem;line-height:1.62;margin-top:8px}
+  .doctor-proof{gap:5px;margin-top:7px;padding-top:7px}
+  .doctor-proof span{font-size:.62rem;min-height:23px;padding:2px 6px}
+  .text-link{margin-top:12px;font-size:.76rem}
+  .doctor-case{width:66%;height:112px;margin:10px auto 0}
+  .case-strip{gap:10px}
+  .case-strip img{height:112px}
+
+  #results .section-heading{margin-bottom:20px}
+  .results-grid{grid-template-columns:1fr 1fr;gap:18px 14px;max-width:100%}
+  .results-grid figure,.result-feature,.results-grid figure:nth-child(2){padding:6px;aspect-ratio:4/5}
+  .results-grid img{width:100%;height:100%;object-fit:contain}
+
+  .review-layout,.booking-layout{gap:22px}
+  .review-copy h2,.booking-copy h2{font-size:1.42rem;line-height:1.3}
+  .review-copy p:not(.eyebrow),.booking-copy p:not(.eyebrow){font-size:.8rem;line-height:1.65;margin-top:9px}
+  .testimonial-card{padding:7px}
+
+  .booking-form{padding:15px;gap:12px}
+  .booking-form label{font-size:.72rem;gap:5px}
+  .booking-form input,.booking-form select,.booking-form textarea{min-height:42px;padding:9px 10px;font-size:.82rem}
+  .booking-direct{margin-top:16px;gap:12px;font-size:.8rem}
+
+  .faq-item summary{padding:15px 0;font-size:.84rem}
+  .faq-item>p{font-size:.78rem;line-height:1.65;padding-bottom:17px}
+
+  .contact-grid{gap:11px}
+  .contact-card{padding:17px}
+  .contact-card>span{font-size:.62rem}
+  .contact-card strong{margin-top:8px;font-size:.8rem;line-height:1.55}
+  .contact-card a{padding-top:12px;font-size:.76rem}
+  .social-links{margin-top:18px;font-size:.8rem}
+
+  .floating-whatsapp{width:46px;height:46px;right:12px;bottom:12px;font-size:.7rem}
+  footer{padding:32px 18px;font-size:.72rem}
+  footer img{width:118px}
+}
+
+@media(max-width:380px){
+  .hero h1{font-size:1.55rem}
+  .section-heading h2,.review-copy h2,.booking-copy h2{font-size:1.32rem}
+  .service-card h3{font-size:1rem}
+  .results-grid{gap:16px 12px}
+}
