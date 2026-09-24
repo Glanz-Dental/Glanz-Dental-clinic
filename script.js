@@ -20,7 +20,7 @@
     localStorage.setItem('glanz-language', lang);
   }
 
-  applyLanguage(localStorage.getItem('glanz-language') || 'en');
+  applyLanguage(localStorage.getItem('glanz-language') || 'ar');
   languageToggle.addEventListener('click', () => applyLanguage(html.lang === 'en' ? 'ar' : 'en'));
 
   menuToggle.addEventListener('click', () => {
