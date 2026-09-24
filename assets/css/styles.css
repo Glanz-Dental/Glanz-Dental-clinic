@@ -461,3 +461,185 @@ html[dir="rtl"] .trust-item:last-child{border-left:0}
   .compact-trust .trust-item strong{font-size:.63rem}
   .specialty-box{font-size:.72rem;padding:10px}
 }
+
+
+/* V10 — final hero copy + clearer doctor separation */
+.hero-cta-copy h1{white-space:pre-line}
+html[lang="ar"] .hero-cta-copy h1{max-width:680px}
+
+@media(max-width:620px){
+  .hero-cta-copy h1{
+    font-size:1.20rem;
+    line-height:1.38;
+    max-width:100%;
+  }
+  .hero-cta-copy .eyebrow{margin-bottom:5px}
+
+  /* Each doctor reads as a separate section on mobile */
+  .doctor-card{
+    display:block;
+    padding:36px 0 42px;
+    border-top:1px solid var(--line);
+  }
+  .doctor-card + .doctor-card{margin-top:10px}
+  .doctor-visual{
+    width:min(46vw,168px);
+    height:205px;
+    max-height:205px;
+    margin:0 0 18px auto;
+  }
+  html[dir="ltr"] .doctor-visual{margin:0 auto 18px 0}
+  .doctor-visual img{
+    width:100%;
+    height:205px;
+    object-fit:cover;
+  }
+  .doctor-info h3{font-size:1.12rem;line-height:1.28}
+  .doctor-kicker{font-size:.64rem;line-height:1.5;margin-bottom:6px}
+  .doctor-info p:not(.doctor-kicker){font-size:.78rem;line-height:1.68;margin-top:10px}
+  .doctor-proof{margin-top:10px;padding-top:10px;gap:6px}
+  .doctor-proof span{font-size:.64rem;min-height:24px;padding:3px 7px}
+  .doctor-case{
+    width:min(72%,290px);
+    height:145px;
+    margin:18px auto 0;
+  }
+  .case-strip{
+    width:100%;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+  }
+  .case-strip img{height:145px}
+}
+
+@media(max-width:380px){
+  .hero-cta-copy h1{font-size:1.10rem}
+  .doctor-visual{width:150px;height:185px;max-height:185px}
+  .doctor-visual img{height:185px}
+}
+
+
+/* V11 — highlighted GLANZ hero + truly separated doctor sections */
+.hero-title{display:grid;gap:.08em}
+.hero-title>span{display:block}
+.hero-title .hero-glanz{color:var(--gold);font-weight:800}
+
+.doctor-card{scroll-margin-top:92px}
+
+@media(max-width:620px){
+  #doctors{padding-top:48px}
+  #doctors .shell{width:min(100% - 24px,1180px)}
+  .doctor-card{
+    display:flex!important;
+    flex-direction:column;
+    align-items:stretch;
+    gap:18px;
+    min-height:calc(100svh - 92px);
+    margin:0 0 28px!important;
+    padding:24px 18px 30px!important;
+    background:#fff!important;
+    border:1px solid var(--line)!important;
+    box-shadow:0 8px 26px rgba(33,28,23,.035);
+  }
+  .doctor-card + .doctor-card{margin-top:0!important}
+  .doctor-visual,
+  html[dir="ltr"] .doctor-visual{
+    width:min(72vw,270px)!important;
+    height:auto!important;
+    max-height:none!important;
+    aspect-ratio:4/5;
+    margin:0 auto!important;
+    background:#f2eee6;
+  }
+  .doctor-visual img{
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+  }
+  .doctor-info{width:100%;text-align:right}
+  html[dir="ltr"] .doctor-info{text-align:left}
+  .doctor-info h3{font-size:1.28rem!important;line-height:1.3}
+  .doctor-kicker{font-size:.68rem!important;margin-bottom:6px}
+  .doctor-proof{gap:7px!important;margin-top:11px!important;padding-top:0!important}
+  .doctor-proof span{font-size:.66rem!important;min-height:26px!important;padding:4px 8px!important}
+  .doctor-info p:not(.doctor-kicker){font-size:.82rem!important;line-height:1.75!important;margin-top:12px!important}
+  .text-link{margin-top:16px}
+  .doctor-case{
+    width:100%!important;
+    max-width:430px;
+    height:auto!important;
+    margin:2px auto 0!important;
+    border:1px solid var(--line);
+    background:#fff;
+  }
+  .doctor-case img{width:100%!important;height:auto!important;object-fit:contain!important}
+  .case-strip{
+    width:100%!important;
+    max-width:430px;
+    grid-template-columns:1fr 1fr!important;
+    gap:14px!important;
+  }
+  .case-strip img{height:auto!important;min-height:0!important}
+}
+
+@media(max-width:380px){
+  .doctor-card{min-height:calc(100svh - 86px);padding:20px 14px 26px!important}
+  .doctor-visual{width:min(74vw,250px)!important}
+  .doctor-info h3{font-size:1.18rem!important}
+}
+
+/* V12 — compact five-specialty row + unmistakably separate doctor sections */
+@media(max-width:620px){
+  /* Five specialties stay side-by-side in one compact row */
+  .specialty-section{padding-top:30px;padding-bottom:38px}
+  .specialty-heading{margin-bottom:12px;padding-bottom:10px}
+  .specialty-heading h2{font-size:1.08rem;line-height:1.3}
+  .specialty-grid{
+    display:grid!important;
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
+    gap:6px!important;
+    width:100%!important;
+    max-width:none!important;
+    margin:0!important;
+  }
+  .specialty-box,
+  .specialty-box:last-child{
+    grid-column:auto!important;
+    width:auto!important;
+    aspect-ratio:1/1!important;
+    min-width:0!important;
+    padding:6px 4px!important;
+    font-size:.57rem!important;
+    line-height:1.28!important;
+    justify-self:stretch!important;
+    overflow-wrap:anywhere;
+  }
+
+  /* Every dentist is a standalone visual section */
+  #doctors{padding-top:44px;padding-bottom:54px}
+  #doctors .section-heading{margin-bottom:20px}
+  .doctor-card{
+    min-height:calc(100svh - 84px)!important;
+    margin:0 0 40px!important;
+    padding:28px 18px 34px!important;
+    border:1px solid var(--line)!important;
+    background:#fff!important;
+    box-shadow:0 10px 30px rgba(33,28,23,.045)!important;
+    scroll-margin-top:82px!important;
+  }
+  .doctor-card + .doctor-card{margin-top:0!important}
+  .doctor-card:last-child{margin-bottom:0!important}
+  .doctor-visual,
+  html[dir="ltr"] .doctor-visual{
+    width:min(76vw,286px)!important;
+    margin:0 auto 4px!important;
+  }
+  .doctor-info{padding-top:2px}
+  .doctor-case{margin-top:8px!important}
+}
+
+@media(max-width:380px){
+  .specialty-grid{gap:4px!important}
+  .specialty-box,
+  .specialty-box:last-child{font-size:.51rem!important;padding:5px 3px!important}
+}

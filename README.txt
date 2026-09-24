@@ -21,3 +21,6 @@ MAIN CONTENT
 Text and links are in index.html. Visual styling is in assets/css/styles.css. Language and booking interactions are in assets/js/script.js.
 
 V6 mobile refinement: smaller typography, tighter hierarchy, more whitespace, compact doctors/results, removed rating label badge.
+
+
+V12 update: five compact specialty squares in one row on mobile. Each links to one dentist section. Dentist sections are visually separated and mobile-first.

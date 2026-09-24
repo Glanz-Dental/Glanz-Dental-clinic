@@ -32,6 +32,15 @@
     menuToggle.setAttribute('aria-expanded', 'false');
   }));
 
+  document.querySelectorAll('.specialty-box').forEach(link => {
+    link.addEventListener('click', (event) => {
+      const target = document.querySelector(link.getAttribute('href'));
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+
   document.querySelectorAll('.book-doctor').forEach(btn => {
     btn.addEventListener('click', () => {
       doctorSelect.value = btn.dataset.doctor;
